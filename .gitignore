@@ -1,0 +1,6 @@
+project.exe
+
+congig_*
+*.mock
+!src/
+!assets/

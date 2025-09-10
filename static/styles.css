@@ -55,3 +55,18 @@ button:hover {
     max-width: 250px;
     background-color: darkgrey;
 }
+
+.error {
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: indianred;
+
+}
+
+.media {
+    padding: 4px;
+    border: 3 px solid blue;
+    background-color: cadetblue;
+    max-width: 730;
+}
