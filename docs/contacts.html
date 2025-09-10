@@ -4,6 +4,7 @@
  ... <!-- Скопируйте весь блок <head> из index.html -->
  <title>Контакты - Название вашего сайта</title>
  <meta name="description" content="Наши контакты для связи">
+ <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
  <header>
@@ -25,6 +26,32 @@
  <p>Телефон: +7 (910) 123-34-18</p>
  <p>Email: evgeniya.razina.06@mail.ru</p>
  </section>
+ <form id="ContactForm">
+    <label for="name">Ваше имя:</label> 
+    <input type="text" id="name" name="name">
+
+    <label for="phone">Ваш телефон:</label> 
+    <input type="text" id="phone" name="phone" placeholder="+7-999-999-99-99">
+
+    <label for="email">Ваш email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="cource">Ваш курс:</label>
+    <select id="cource" name="cource" required>
+        <option value="">--</option>
+        <option value="1">1 курс</option>
+        <option value="2">2 курс</option>
+        <option value="3">3 курс</option>
+        <option value="4">4 курс</option>
+        <option value="other">Другой</option>
+    </select>
+
+    <label for="message">Ваше сообщение:</label>
+    <textarea for="message" name="message" rows="4"></textarea>
+
+    <button type="sumbit" id="sumbit-btn">Отправить</button>
+    <button type="reset" id="reset-btn">Очистить</button>
+ </form>
  </main>
  <footer>
  ... <!-- Скопируйте весь блок <footer> из index.html -->

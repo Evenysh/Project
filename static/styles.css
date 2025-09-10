@@ -1,0 +1,57 @@
+/*Данные стили применяются ко всем компонентам убираем все начальные отступы*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/fon_site.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input, button {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+label {
+   display: block; 
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+
+input {
+    border: 3px solid purple;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: gainsboro;
+}
+
+input:focus {
+    background-color: rgb(250, 219, 250);
+}
+
+button {
+    padding: 4px;
+    border: 3px;
+    border-radius: 10px;
+    background-color: rgb(250, 219, 250);
+}
+
+button:hover {
+    background-color: rgb(224, 214, 216);
+}
+
+#ContactForm {
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid rgb(250, 219, 250);
+    border-radius: 10px;
+    max-width: 250px;
+    background-color: darkgrey;
+}
