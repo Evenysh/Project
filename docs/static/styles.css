@@ -5,17 +5,17 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url("img/fon_site.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 input, button {
     border: none;
     outline: none;
     font-family: inherit;
     font-size: inherit;
+}
+body {
+    background-image: url("img/fon_site.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 label {
@@ -61,12 +61,11 @@ button:hover {
     border-radius: 10px;
     padding: 50px;
     background-color: indianred;
-
 }
 
 .media {
     padding: 4px;
     border: 3 px solid blue;
     background-color: cadetblue;
-    max-width: 730;
+    max-width: 730px;
 }
